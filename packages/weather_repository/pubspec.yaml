@@ -1,0 +1,22 @@
+name: weather_repository
+description: A Dart Repository which manages the weather domain.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  equatable: ^2.0.3
+  json_annotation: ^4.5.0
+  accu_weather_api:
+    path: ../accu_weather_api
+ 
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.2.0
+  build_runner: ^2.1.11
+  mocktail: ^0.3.0
+  test: ^1.21.3
+  coverage: ^1.5.0
